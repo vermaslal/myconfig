@@ -1,0 +1,37 @@
+{
+  "file_receiver": {
+    "port": 9001,
+    "redisSocket": "/tmp/redis.sock",
+    "maxDirs": -1,
+    "maxFilesInDirs": 300,
+    "fileNamePrefix": "pre_",
+    "backoffTime": 120,
+    "responseCode": 200,
+    "responseText": {
+      "status": "Good day."
+    },
+    "backoffCode": 503,
+    "backoffText": {
+      "status": "Service Unavailable",
+      "waitTime": 120
+    },
+    "logLevel": "notice"
+
+  },
+  "process_queue": {
+    "maxChild": 35,
+    "masterProcessDiff": 30,
+    "queueThreshold": 10,
+    "redisSocket": "/tmp/redis.sock",
+    "queuePattern": "^([0-9]+)$",
+    "filePattern": "^pre_(.*)",
+    "logLevel": "notice"
+  },
+  "report_send": {
+    "port": 9001,
+    "sendThreshold": 10,
+    "redisSocket": "/tmp/redis.sock",
+    "logLevel": "notice"
+
+  }
+}
