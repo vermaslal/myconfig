@@ -1,3 +1,7 @@
+
+[![NPM](https://nodei.co/npm/myconfig.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/myconfig/)
+
+
 # myconfig
 
 This module enables you to manage configuration on a single file for multiple projects
