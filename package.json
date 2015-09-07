@@ -1,0 +1,29 @@
+{
+    "name": "myconfig",
+    "description": "A simple project configurations.",
+    "version": "0.0.2",
+    "main": "./main.js",
+    "keywords": [ "conf","config","configuration","node-config","config-node"],
+    "bugs": {
+        "email": "developer.shambhu@gmail.com"
+    } ,
+  "maintainers": [{"name": "shambhu","email": "vermaslal@gmail.com"}],
+  "homepage": "https://github.com/vermaslal/myconfig",
+  "bugs": {
+    "url": "https://github.com/vermaslal/myconfig/issues",
+	"email": "vermaslal@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vermaslal/myconfig.git"
+  },
+  "licenses": [
+		{
+			"type": "MIT",
+			"url": "https://github.com/vermaslal/myconfig/blob/master/LICENCE"
+		}
+	],
+ "readmeFilename": "README.md",
+  "author": "Shambhulal Verma <vermaslal@gmail.com>",
+  "license": "MIT"
+}
