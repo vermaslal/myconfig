@@ -1,7 +1,7 @@
 {
     "name": "myconfig",
     "description": "A simple project configurations.",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "main": "./main.js",
     "keywords": [ "conf","config","configuration","node-config","config-node"],
     "bugs": {
